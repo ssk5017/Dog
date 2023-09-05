@@ -10,8 +10,18 @@ public class Dog {
         this.breed = breed;
     }
 
+    public Dog(String name, int age) {
+        this.name = name;
+        this.age = age;
+    }
+
+    public Dog(int age) {
+        this.age = age;
+    }
+
     // Get Methods
-    public String getName() {
+    public String getName()
+    {
         return name;
     }
 
@@ -24,15 +34,18 @@ public class Dog {
     }
 
     // Set Methods
-    public void setName(String name) {
+    public void setName
+    (String name) {
         this.name = name;
     }
 
-    public void setAge(int age) {
+    public void setAge(int age)
+    {
         this.age = age;
     }
 
-    public void setBreed(Breed breed) {
+    public void setBreed(Breed breed)
+    {
         this.breed = breed;
     }
 

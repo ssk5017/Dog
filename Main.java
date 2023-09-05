@@ -7,5 +7,14 @@ public class Main {
         snoopy.bark();
         spot.bark();
         wolf.bark();
+
+        //snoopy set and get (name, age, breed)
+        snoopy.setName("Snoopy");
+        System.out.println(snoopy.getName() + " is a " + snoopy.getAge() + " year old " + snoopy.getBreed() + ".");
+        spot.setName("Spot");
+        System.out.println(spot.getName() + " is a " + snoopy.getAge() + " year old " + snoopy.getBreed() + ".");
+        wolf.setAge(10);
+        System.out.println(wolf.getName() + " is a " + wolf.getAge() + " year old " + wolf.getBreed() + ".");
+
     }
 }
